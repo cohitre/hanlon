@@ -1,0 +1,5 @@
+- hanlon :greet do |name|
+  Hello #{name}
+
+- hanlon :greet_user do |user|
+  = greet user[:name]
