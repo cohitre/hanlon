@@ -3,7 +3,7 @@ Bundler::GemHelper.install_tasks
 
 require "rspec/core/rake_task"
 namespace :spec do
-  types = [:unit, :acceptance]
+  types = [:unit]
 
   types.each do |type|
     desc "Run #{type} specs only"
