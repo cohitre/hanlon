@@ -1,0 +1,11 @@
+- hanlon :operation do |op, num_1, num_2, result|
+  %p
+    %span.operations> #{num_1} #{op} #{num_2} =
+    %span.result>= result
+
+- hanlon :add do |num_1, num_2|
+  = operation '+', num_1, num_2, num_1 + num_2
+
+- hanlon :substract do |num_1, num_2|
+  = operation '-', num_1, num_2, num_1 - num_2
+

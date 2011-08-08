@@ -13,3 +13,7 @@ RSpec.configure do |config|
 end
 
 require 'hanlon'
+
+def template temp
+  File.read("#{File.dirname __FILE__}/templates/#{temp}")
+end

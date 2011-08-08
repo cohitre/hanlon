@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hanlon (0.0.1)
+    hanlon (0.0.2)
       haml
 
 GEM
